@@ -58,12 +58,12 @@
         <translation>Отправка адресов</translation>
     </message>
     <message>
-        <source>These are your LUX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши LUX-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your RÜNES addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши RÜNES-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your LUX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши LUX-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your RÜNES addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши RÜNES-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,8 +160,8 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>LUX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LUXs from being stolen by malware infecting your computer.</source>
-        <translation>LUX сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши LUX от кражи с использованием вредоносного ПО.</translation>
+        <source>RÜNES will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RÜNESs from being stolen by malware infecting your computer.</source>
+        <translation>RÜNES сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши RÜNES от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -223,8 +223,8 @@
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The LUX address to sign the message with</source>
-        <translation>Адрес LUX для подписи сообщения с помощью</translation>
+        <source>The RÜNES address to sign the message with</source>
+        <translation>Адрес RÜNES для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -255,8 +255,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LUX address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес LUX</translation>
+        <source>Sign the message to prove you own this RÜNES address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес RÜNES</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -562,16 +562,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Luxcore</source>
-        <translation>Luxcore</translation>
+        <source>RÜNES</source>
+        <translation>RÜNES</translation>
     </message>
     <message>
-        <source>Send coins to a LUX address</source>
-        <translation>Отправить монеты на LUX адрес</translation>
+        <source>Send coins to a RÜNES address</source>
+        <translation>Отправить монеты на RÜNES адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lux: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и LUX: URI)</translation>
+        <source>Request payments (generates QR codes and RÜNES: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и RÜNES: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -582,16 +582,16 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About Luxcore</source>
-        <translation>&amp;О Luxcore</translation>
+        <source>&amp;About RÜNES</source>
+        <translation>&amp;О RÜNES</translation>
     </message>
     <message>
-        <source>Show information about Luxcore</source>
-        <translation>Показать информацию о Luxcore</translation>
+        <source>Show information about RÜNES</source>
+        <translation>Показать информацию о RÜNES</translation>
     </message>
     <message>
-        <source>Modify configuration options for LUX</source>
-        <translation>Изменение параметров конфигурации LUX</translation>
+        <source>Modify configuration options for RÜNES</source>
+        <translation>Изменение параметров конфигурации RÜNES</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -630,12 +630,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Luxcore client</source>
-        <translation>Клиент Luxcore</translation>
+        <source>RÜNES client</source>
+        <translation>Клиент RÜNES</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to LUX network</source>
-        <translation><numerusform>%n активное подключение к сети LUX</numerusform><numerusform>%n активных подключений к сети LUX</numerusform><numerusform>%n активных подключений к сети LUX</numerusform><numerusform>%n активных подключений к сети LUX</numerusform></translation>
+        <source>%n active connection(s) to RÜNES network</source>
+        <translation><numerusform>%n активное подключение к сети RÜNES</numerusform><numerusform>%n активных подключений к сети RÜNES</numerusform><numerusform>%n активных подключений к сети RÜNES</numerusform><numerusform>%n активных подключений к сети RÜNES</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ Address: %4
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (lux.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (lux.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (RÜNES.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (RÜNES.conf).</translation>
     </message>
 </context>
 <context>
@@ -962,8 +962,8 @@ Address: %4
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LUX address.</source>
-        <translation>Введенный адрес "%1" не является LUX адресом.</translation>
+        <source>The entered address "%1" is not a valid RÜNES address.</source>
+        <translation>Введенный адрес "%1" не является RÜNES адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1008,16 +1008,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>Luxcore</source>
-        <translation>Luxcore</translation>
+        <source>RÜNES</source>
+        <translation>RÜNES</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Luxcore</source>
-        <translation>О Luxcore</translation>
+        <source>About RÜNES</source>
+        <translation>О RÜNES</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1059,16 +1059,16 @@ Address: %4
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Luxcore.</source>
-        <translation>Добро пожаловать в Luxcore.</translation>
+        <source>Welcome to RÜNES.</source>
+        <translation>Добро пожаловать в RÜNES.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Luxcore will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Luxcore.</translation>
+        <source>As this is the first time the program is launched, you can choose where RÜNES will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные RÜNES.</translation>
     </message>
     <message>
-        <source>Luxcore will download and store a copy of the LUX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Luxcore загрузит и сохранит копию цепочки блоков LUX. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>RÜNES will download and store a copy of the RÜNES block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>RÜNES загрузит и сохранит копию цепочки блоков RÜNES. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1079,8 +1079,8 @@ Address: %4
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Luxcore</source>
-        <translation>Luxcore</translation>
+        <source>RÜNES</source>
+        <translation>RÜNES</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1237,12 +1237,12 @@ Address: %4
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other LUX addresses after it matures.
-To Add: enter percentage to give and LUX address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other RÜNES addresses after it matures.
+To Add: enter percentage to give and RÜNES address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и удерживание, после их созревания, на другие LUX адреса.
-Для добавления: введите передаваемый процент и LUX адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и удерживание, после их созревания, на другие RÜNES адреса.
+Для добавления: введите передаваемый процент и RÜNES адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1380,48 +1380,48 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 LUX</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 LUX</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 RÜNES</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 RÜNES</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 LUX</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 LUX</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 RÜNES</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 RÜNES</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 LUX to anonymize 10000 LUX</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 LUX для анонимизации 10000 LUX</translation>
+        <source>This option is the quickest and will cost about ~0.025 RÜNES to anonymize 10000 RÜNES</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 RÜNES для анонимизации 10000 RÜNES</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 LUX to anonymize 10000 LUX</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 LUX для анонимизации 10000 LUX</translation>
+        <source>This option is moderately fast and will cost about 0.05 RÜNES to anonymize 10000 RÜNES</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 RÜNES для анонимизации 10000 RÜNES</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 LUX per 10000 LUX you anonymize.</source>
-        <translation>0.1 LUX за 10000 LUX которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 RÜNES per 10000 RÜNES you anonymize.</source>
+        <translation>0.1 RÜNES за 10000 RÜNES которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Darksend Configuration</source>
         <translation>Настройка Перемешивания</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening LUX's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки LUX.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening RÜNES's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки RÜNES.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening LUX's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки LUX.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening RÜNES's configuration screen.</source>
+        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки RÜNES.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening LUX's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки LUX.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening RÜNES's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки RÜNES.</translation>
     </message>
 </context>
 <context>
@@ -1482,8 +1482,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the LUX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт LUX через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the RÜNES client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт RÜNES через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1502,12 +1502,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start LUX after logging in to the system.</source>
-        <translation>Автоматически запускать LUX после входа в систему.</translation>
+        <source>Automatically start RÜNES after logging in to the system.</source>
+        <translation>Автоматически запускать RÜNES после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start LUX on system login</source>
-        <translation>&amp;Запускать LUX при входе в систему</translation>
+        <source>&amp;Start RÜNES on system login</source>
+        <translation>&amp;Запускать RÜNES при входе в систему</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1522,8 +1522,8 @@ Please check the address and try again.</source>
         <translation>При достижении этого значения Перемешивание будет отключено.</translation>
     </message>
     <message>
-        <source>Amount of LUX to keep anonymized</source>
-        <translation>Количество LUX, держащихся анонимизированными</translation>
+        <source>Amount of RÜNES to keep anonymized</source>
+        <translation>Количество RÜNES, держащихся анонимизированными</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1550,22 +1550,22 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting LUX.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска LUX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting RÜNES.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска RÜNES.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/lux-project/lux-project-translations</source>
+https://www.transifex.com/RÜNES-project/RÜNES-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/lux-project/lux-project-translations</translation>
+https://www.transifex.com/RÜNES-project/RÜNES-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the LUX network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети LUX через SOCKS5 прокси.</translation>
+        <source>Connect to the RÜNES network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети RÜNES через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1803,8 +1803,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The LUX address to sign the message with</source>
-        <translation>Адрес LUX для подписи сообщения с помощью</translation>
+        <source>The RÜNES address to sign the message with</source>
+        <translation>Адрес RÜNES для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1827,8 +1827,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LUX address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес LUX</translation>
+        <source>Sign the message to prove you own this RÜNES address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес RÜNES</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1866,8 +1866,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Luxcore</source>
-        <translation>Luxcore</translation>
+        <source>RÜNES</source>
+        <translation>RÜNES</translation>
     </message>
     </context>
 <context>
@@ -1962,7 +1962,7 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
     </message>
     </context>
 <context>
-    <name>lux-core</name>
+    <name>RÜNES</name>
     <message>
         <source>Block creation options:</source>
         <translation>Варианты создания блока:</translation>
@@ -1992,8 +1992,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Luxcore Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики Luxcore</translation>
+        <source>Copyright (C) 2015-%i The RÜNES Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики RÜNES</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

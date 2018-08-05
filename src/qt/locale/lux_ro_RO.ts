@@ -180,6 +180,6 @@
     </message>
     </context>
 <context>
-    <name>lux-core</name>
+    <name>RÜNES</name>
     </context>
 </TS>

@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The LUX developers
+// Copyright (c) 2015-2017 The RÜNES developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -17,7 +17,7 @@
 
 #include <boost/assign/list_of.hpp>
 
-///////////////////////////////////////////// // lux
+///////////////////////////////////////////// // RÜNES
 #include <libdevcore/SHA3.h>
 #include <libdevcore/RLP.h>
 //#include "arith_uint256.h"
@@ -140,9 +140,9 @@ public:
         consensus.nMajorityWindow = 1000;
         //consensus.BIP34Height = 227931;
         //consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8");
-        consensus.powLimit = ~uint256(0) >> 20; // LUX starting difficulty is 1 / 2^12
-        consensus.nPowTargetTimespan = 30 * 60; //36 * 60 * 60; // LUX: 1 36hrs MODIFIED VELOCITY?
-        consensus.nPowTargetSpacing = 7 * 60;  // LUX: 7 Minutes | (0r 420 seconds)
+        consensus.powLimit = ~uint256(0) >> 20; // RÜNES starting difficulty is 1 / 2^12
+        consensus.nPowTargetTimespan = 30 * 60; //36 * 60 * 60; // RÜNES: 1 36hrs MODIFIED VELOCITY?
+        consensus.nPowTargetSpacing = 7 * 60;  // RÜNES: 7 Minutes | (0r 420 seconds)
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1026; // 95% of 1080 is 1026
@@ -177,7 +177,7 @@ public:
         pchMessageStart[1] = 0xb1;
         pchMessageStart[2] = 0xc2;
         pchMessageStart[3] = 0xc4;
-        vAlertPubKey = ParseHex("042d13c016ed91528241bcff222989769417eb10cdb679228c91e26e26900eb9fd053cd9f16a9a2894ad5ebbd551be1a4bd23bd55023679be17f0bd3a16e6fbeba");
+        vAlertPubKey = ParseHex("042d13c016ed91528241bcff222989459417eb10cdb67abd4591e26e26900eb9fd053cd9f16a9a2894ad5ebbd551be1a4bd23bd55023679be17f0bd3a16e6fbeba");
         nDefaultPort = 20029;
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
@@ -202,8 +202,8 @@ public:
         genesis.nTime = 1532858400; // Sunday, July 29, 2018 3:00:00 AM
         genesis.nBits = 0x1e0fffff;
         genesis.nNonce = 0;
-        genesis.hashStateRoot = uint256(h256Touint(dev::h256("e965ffd002cd6ad0e2dc402b8044de833e06b23127ea8c3d80aec91410771495"))); // lux
-        genesis.hashUTXORoot = uint256(h256Touint(dev::sha3(dev::rlp("")))); // lux
+        genesis.hashStateRoot = uint256(h256Touint(dev::h256("e965ffd002cd6ad0e2dc402b8044de833e06b23127ea8c3d80aec91410771495"))); // RÜNES
+        genesis.hashUTXORoot = uint256(h256Touint(dev::sha3(dev::rlp("")))); // RÜNES
 
         consensus.hashGenesisBlock = genesis.GetHash();
 
@@ -250,7 +250,7 @@ LogPrintf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         assert(consensus.hashGenesisBlock == uint256("0x"));
         assert(genesis.hashMerkleRoot == uint256("0x"));
 
-        //vSeeds.push_back(CDNSSeedData("140.82.21.110", "140.82.21.110"));        // Luxgate seed
+        //vSeeds.push_back(CDNSSeedData("140.82.21.110", "140.82.21.110"));        // RÜNESgate seed
         //vSeeds.push_back(CDNSSeedData("149.28.163.40", "149.28.163.40"));        // Main seed
         //vSeeds.push_back(CDNSSeedData("207.148.83.62", "207.148.83.62"));        // Chain state seed
         //vSeeds.push_back(CDNSSeedData("207.148.81.88", "207.148.81.88"));        // Global state seed
@@ -260,8 +260,8 @@ LogPrintf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         //vSeeds.push_back(CDNSSeedData("45.77.127.10", "45.77.127.10"));           // DNSSeed
         //vSeeds.push_back(CDNSSeedData("45.32.146.237", "45.32.146.237"));         // DNSSeed
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60); // LUX address start with 'R'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,53); // LUX script addresses start with 'N'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60); // RÜNES address start with 'R'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,53); // RÜNES script addresses start with 'N'
         base58Prefixes[SECRET_KEY]     = std::vector<unsigned char>(1,63); // Secret Keys begin with 'S'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x07)(0x28)(0xA2)(0x4E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x03)(0xD8)(0xA1)(0xE5).convert_to_container<std::vector<unsigned char> >();
@@ -309,9 +309,9 @@ public:
         consensus.nMajorityWindow = 100;
         //consensus.BIP34Height = 227931;
         //consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8");
-        consensus.powLimit = ~uint256(0) >> 10; // LUX starting difficulty is 1 / 2^12
-        consensus.nPowTargetTimespan = 30 * 60; //36 * 60 * 60; // LUX: 1 36hrs
-        consensus.nPowTargetSpacing = 2 * 60;  // LUX: 2 minute
+        consensus.powLimit = ~uint256(0) >> 10; // RÜNES starting difficulty is 1 / 2^12
+        consensus.nPowTargetTimespan = 30 * 60; //36 * 60 * 60; // RÜNES: 1 36hrs
+        consensus.nPowTargetSpacing = 2 * 60;  // RÜNES: 2 minute
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1368; // 95% of 1440 is
@@ -331,14 +331,14 @@ public:
         pchMessageStart[1] = 0x45;
         pchMessageStart[2] = 0xcc;
         pchMessageStart[3] = 0x3b;
-        vAlertPubKey = ParseHex("000010e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce1211745607d573b8810c02c0582aed05a34eb9c4bb7626d92427c61256cd42774babea0a073b2ed0c9");
+        vAlertPubKey = ParseHex("000010e83b2703ccf322f7dbd62dd5855ac7c10bd055156897548545607d573b8810cabced4567205a34eb9c4bb7626d92427c61256cd42774babea0a073b2ed0c9");
         nDefaultPort = 20062;
         nMinerThreads = 0;
         nMaturity = 25;
         nModifierUpdateBlock = 51197; //approx Tuesday, December 25, 2018 12:00:59 AM
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        const char* pszTimestamp = "Lux - Testnet 1"; // Input Activation code to activate blockchain
+        const char* pszTimestamp = "RÜNES - Testnet 1"; // Input Activation code to activate blockchain
         CMutableTransaction txNew;
         txNew.nVersion = 1;
         txNew.nTime = 1545696059; //Tuesday, December 25, 2018 12:00:59 AM
@@ -356,8 +356,8 @@ public:
         genesis.nTime = 1545696059; //Tuesday, December 25, 2018 12:00:59 AM
         genesis.nBits = 0x1e0fffff;
         genesis.nNonce = 0;
-        genesis.hashStateRoot = uint256(h256Touint(dev::h256("e965ffd002cd6ad0e2dc402b8044de833e06b23127ea8c3d80aec91410771495"))); // lux
-        genesis.hashUTXORoot = uint256(h256Touint(dev::sha3(dev::rlp("")))); // lux
+        genesis.hashStateRoot = uint256(h256Touint(dev::h256("e965ffd002cd6ad0e2dc402b8044de833e06b23127ea8c3d80aec91410771495"))); // RÜNES
+        genesis.hashUTXORoot = uint256(h256Touint(dev::sha3(dev::rlp("")))); // RÜNES
 
 //        while (!CheckProof(genesis.GetHash(), genesis.nBits)) {
 //            genesis.nNonce ++;
@@ -419,17 +419,17 @@ LogPrintf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
 
         //vFixedSeeds.clear();
         //vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("luxtest1", "140.82.45.100"));
-        //vSeeds.push_back(CDNSSeedData("luxtest2", "144.202.3.186"));
+        //vSeeds.push_back(CDNSSeedData("RÜNEStest1", "140.82.45.100"));
+        //vSeeds.push_back(CDNSSeedData("RÜNEStest2", "144.202.3.186"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 60); // Testnet lux addresses start with 'R'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 25); // Testnet lux script addresses start with 'B'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 60); // Testnet RÜNES addresses start with 'R'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 25); // Testnet RÜNES script addresses start with 'B'
             base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 75);     // Testnet private keys start with 'X'
-        // Testnet lux BIP32 pubkeys start with 'DRKV'
+        // Testnet RÜNES BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet lux BIP32 prvkeys start with 'DRKP'
+        // Testnet RÜNES BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet lux BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet RÜNES BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x01)(0x00)(0x00)(0x80).convert_to_container<std::vector<unsigned char> >();
 
         bech32_hrp = "tb";
@@ -475,8 +475,8 @@ public:
         //consensus.BIP34Height = -1; // BIP34 has not necessarily activated on regtest
         //consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // Lux: 1 day (86,400 seconds = 24 hours)
-        consensus.nPowTargetSpacing = 1 * 60; // Lux: 1 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // RÜNES: 1 day (86,400 seconds = 24 hours)
+        consensus.nPowTargetSpacing = 1 * 60; // RÜNES: 1 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nRuleChangeActivationThreshold = 108; // 75% for testchains
@@ -568,9 +568,9 @@ public:
         consensus.nMajorityEnforceBlockUpgrade = 750;
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 1000;
-        consensus.powLimit = ~uint256(0) >> 20; // LUX starting difficulty is 1 / 2^12
+        consensus.powLimit = ~uint256(0) >> 20; // RÜNES starting difficulty is 1 / 2^12
         consensus.nPowTargetTimespan = 10 * 60; //10 minute
-        consensus.nPowTargetSpacing = 60;  // LUX: 1 minute
+        consensus.nPowTargetSpacing = 60;  // RÜNES: 1 minute
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 9; // 95% of 10
@@ -682,7 +682,7 @@ LogPrintf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         assert(consensus.hashGenesisBlock == uint256("0x"));
         assert(genesis.hashMerkleRoot == uint256("0x"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,144); // LUX Start letter 'Z' or '2'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,144); // RÜNES Start letter 'Z' or '2'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,15);  // Begins with '7'
         base58Prefixes[SECRET_KEY]     = std::vector<unsigned char>(1,23);  // Begins with 'A'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x07)(0x28)(0xA2)(0x4E).convert_to_container<std::vector<unsigned char> >();

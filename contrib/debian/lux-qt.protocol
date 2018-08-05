@@ -1,6 +1,6 @@
 [Protocol]
-exec=lux-qt '%u'
-protocol=lux
+exec=RÜNES-qt '%u'
+protocol=RÜNES
 input=none
 output=none
 helper=true

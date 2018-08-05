@@ -1,19 +1,19 @@
 [Unit]
-Description=LUX's distributed currency daemon
+Description=RÜNES's distributed currency daemon
 After=network.target
 
 [Service]
-User=lux
-Group=lux
+User=RÜNES
+Group=RÜNES
 
 Type=forking
-PIDFile=/var/lib/luxd/luxd.pid
+PIDFile=/var/lib/RÜNESd/RÜNESd.pid
 
-ExecStart=/usr/bin/luxd -daemon -pid=/var/lib/luxd/luxd.pid \
-          -conf=/etc/lux/lux.conf -datadir=/var/lib/luxd
+ExecStart=/usr/bin/RÜNESd -daemon -pid=/var/lib/RÜNESd/RÜNESd.pid \
+          -conf=/etc/RÜNES/RÜNES.conf -datadir=/var/lib/RÜNESd
 
-ExecStop=-/usr/bin/lux-cli -conf=/etc/lux/lux.conf \
-         -datadir=/var/lib/luxd stop
+ExecStop=-/usr/bin/RÜNES-cli -conf=/etc/RÜNES/RÜNES.conf \
+         -datadir=/var/lib/RÜNESd stop
 
 Restart=always
 PrivateTmp=true

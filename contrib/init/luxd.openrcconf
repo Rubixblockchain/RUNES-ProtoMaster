@@ -1,25 +1,25 @@
-# /etc/conf.d/luxd: config file for /etc/init.d/luxd
+# /etc/conf.d/RÜNESd: config file for /etc/init.d/RÜNESd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/lux/lux.conf"
+#BITCOIND_CONFIGFILE="/etc/RÜNES/RÜNES.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/luxd"
+#BITCOIND_PIDDIR="/var/run/RÜNESd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/luxd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/RÜNESd.pid"
 
-# Where to write luxd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/luxd"
+# Where to write RÜNESd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/RÜNESd"
 
-# User and group to own luxd process
-#BITCOIND_USER="lux"
-#BITCOIND_GROUP="lux"
+# User and group to own RÜNESd process
+#BITCOIND_USER="RÜNES"
+#BITCOIND_GROUP="RÜNES"
 
-# Path to luxd executable
-#BITCOIND_BIN="/usr/bin/luxd"
+# Path to RÜNESd executable
+#BITCOIND_BIN="/usr/bin/RÜNESd"
 
-# Nice value to run luxd under
+# Nice value to run RÜNESd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

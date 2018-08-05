@@ -276,7 +276,7 @@ public:
     {
         switch (banReason) {
             case BanMisbehaving:
-                return "lux node misbehabing";
+                return "RÜNES node misbehabing";
             case BanReasonManually:
                 return "manually";
             default:

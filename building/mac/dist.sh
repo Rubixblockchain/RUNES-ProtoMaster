@@ -1,9 +1,9 @@
 
-cp src/luxd .
-cp src/qt/lux-qt .
-strip luxd
-strip lux-qt
-zip release_${LUX_PLATFORM}.zip luxd lux-qt
+cp src/RÜNESd .
+cp src/qt/RÜNES-qt .
+strip RÜNESd
+strip RÜNES-qt
+zip release_${RÜNES_PLATFORM}.zip RÜNESd RÜNES-qt
 
 sudo easy_install appscript
 

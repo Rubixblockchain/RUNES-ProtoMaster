@@ -261,8 +261,8 @@ bool CBlockTreeDB::LoadBlockIndexGuts()
                 pindexNew->nNonce = diskindex.nNonce;
                 pindexNew->nStatus = diskindex.nStatus;
                 pindexNew->nTx = diskindex.nTx;
-                pindexNew->hashStateRoot  = diskindex.hashStateRoot; // lux
-                pindexNew->hashUTXORoot   = diskindex.hashUTXORoot; // lux
+                pindexNew->hashStateRoot  = diskindex.hashStateRoot; // RÜNES
+                pindexNew->hashUTXORoot   = diskindex.hashUTXORoot; // RÜNES
 
                 // Proof Of Stake
                 pindexNew->nMint = diskindex.nMint;

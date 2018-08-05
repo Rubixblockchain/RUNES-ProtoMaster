@@ -76,7 +76,7 @@ public:
     }
 };
 
-class CLuxNodeConfig
+class CRÜNESNodeConfig
 {
 public:
     int nVersion;
@@ -85,7 +85,7 @@ public:
     std::string sCollateralAddress;
     std::string sMasternodePrivKey;
 
-    CLuxNodeConfig()
+    CRÜNESNodeConfig()
     {
 	nVersion = 0;
     }
@@ -127,9 +127,9 @@ public:
     bool WriteTokenTx(const CTokenTx& wTokenTx);
     bool EraseTokenTx(uint256 hash);
 
-    bool WriteLuxNodeConfig(std::string sAlias, const CLuxNodeConfig& nodeConfig);
-    bool ReadLuxNodeConfig(std::string sAlias, CLuxNodeConfig& nodeConfig);
-    bool EraseLuxNodeConfig(std::string sAlias);
+    bool WriteRÜNESNodeConfig(std::string sAlias, const CRÜNESNodeConfig& nodeConfig);
+    bool ReadRÜNESNodeConfig(std::string sAlias, CRÜNESNodeConfig& nodeConfig);
+    bool EraseRÜNESNodeConfig(std::string sAlias);
 
     bool WriteKey(const CPubKey& vchPubKey, const CPrivKey& vchPrivKey, const CKeyMetadata& keyMeta);
     bool WriteCryptedKey(const CPubKey& vchPubKey, const std::vector<unsigned char>& vchCryptedSecret, const CKeyMetadata& keyMeta);

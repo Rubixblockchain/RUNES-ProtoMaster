@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between lux-cli and luxd)
- * of a given instance of the Lux system.
+ * CBaseChainParams defines the base parameters (shared between RÜNES-cli and RÜNESd)
+ * of a given instance of the RÜNES system.
  */
 class CBaseChainParams
 {

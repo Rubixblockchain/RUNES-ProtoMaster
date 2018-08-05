@@ -62,12 +62,12 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>These are your LUX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones LUX para mandar pagos. Siempre checkear la cantidad y la dirección de recepción antes de mandar monedas.</translation>
+        <source>These are your RÜNES addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones RÜNES para mandar pagos. Siempre checkear la cantidad y la dirección de recepción antes de mandar monedas.</translation>
     </message>
     <message>
-        <source>These are your LUX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones LUX para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your RÜNES addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son sus direcciones RÜNES para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirmar la encriptación de la wallet</translation>
     </message>
     <message>
-        <source>LUX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LUXs from being stolen by malware infecting your computer.</source>
-        <translation>LUX se cerrará ahora para finalizar el proceso de encriptación. Recordad que encriptar vuestra wallet no puede proteger completamente que tus LUXs sean robados mediante malware infectando tu ordenador.</translation>
+        <source>RÜNES will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RÜNESs from being stolen by malware infecting your computer.</source>
+        <translation>RÜNES se cerrará ahora para finalizar el proceso de encriptación. Recordad que encriptar vuestra wallet no puede proteger completamente que tus RÜNESs sean robados mediante malware infectando tu ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estás seguro de que quieres encriptar tu wallet?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LUX&lt;/b&gt;!</source>
-        <translation>Atención: Si encriptas tu wallet y pierdes tu contraseña, perderás &lt;b&gt; TODOS TUS LUX&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RÜNES&lt;/b&gt;!</source>
+        <translation>Atención: Si encriptas tu wallet y pierdes tu contraseña, perderás &lt;b&gt; TODOS TUS RÜNES&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;Encriptación BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Lux Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Introduzca la dirección LUX que querría encriptar usando BIP 38. Introduzca una contraseña en la caja central. Clickee en encriptar para computar la clave privada encriptada.</translation>
+        <source>Enter a RÜNES Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Introduzca la dirección RÜNES que querría encriptar usando BIP 38. Introduzca una contraseña en la caja central. Clickee en encriptar para computar la clave privada encriptada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Dirección:</translation>
     </message>
     <message>
-        <source>The LUX address to sign the message with</source>
-        <translation>La dirección LUX con la que firmar el mensaje</translation>
+        <source>The RÜNES address to sign the message with</source>
+        <translation>La dirección RÜNES con la que firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar la firma actual al clipboard del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LUX address</source>
-        <translation>Firmar el mensaje para demostrar que eres el propietario de esta dirección LUX</translation>
+        <source>Sign the message to prove you own this RÜNES address</source>
+        <translation>Firmar el mensaje para demostrar que eres el propietario de esta dirección RÜNES</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Introducir la clave encriptada privada BIP 38. Introducir la contraseña en la caja central. Pulsar en Desencriptar Clave para computar la clave privada. Después de que la clave sea desencriptada, pulsando en 'Importar Dirección' añadirá esta clave privada a la wallet.</translation>
     </message>
     <message>
-        <source>The LUX address the message was signed with</source>
-        <translation>La dirección LUX con la que el mensaje fue firmado</translation>
+        <source>The RÜNES address the message was signed with</source>
+        <translation>La dirección RÜNES con la que el mensaje fue firmado</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LUX address</source>
-        <translation>Verificar el mensaje para asegurarse que fue firmado con la dirección LUX especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified RÜNES address</source>
+        <translation>Verificar el mensaje para asegurarse que fue firmado con la dirección RÜNES especificada</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,15 +602,15 @@
         <translation>Herramienta de pestañas</translation>
     </message>
     <message>
-        <source>Luxcore</source>
-        <translation>Núcleo LUX</translation>
+        <source>RÜNES</source>
+        <translation>Núcleo RÜNES</translation>
     </message>
     <message>
-        <source>Send coins to a LUX address</source>
-        <translation>Mandar coins a una dirección LUX</translation>
+        <source>Send coins to a RÜNES address</source>
+        <translation>Mandar coins a una dirección RÜNES</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lux: URIs)</source>
+        <source>Request payments (generates QR codes and RÜNES: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -622,24 +622,24 @@
         <translation>Explorar masternodos</translation>
     </message>
     <message>
-        <source>&amp;About Luxcore</source>
-        <translation>&amp;Sobre el núcleo de LUX</translation>
+        <source>&amp;About RÜNES</source>
+        <translation>&amp;Sobre el núcleo de RÜNES</translation>
     </message>
     <message>
-        <source>Show information about Luxcore</source>
-        <translation>Mostrar información sobre el núcleo de LUX</translation>
+        <source>Show information about RÜNES</source>
+        <translation>Mostrar información sobre el núcleo de RÜNES</translation>
     </message>
     <message>
-        <source>Modify configuration options for LUX</source>
-        <translation>Modificar las opciones de configuración de LUX</translation>
+        <source>Modify configuration options for RÜNES</source>
+        <translation>Modificar las opciones de configuración de RÜNES</translation>
     </message>
     <message>
-        <source>Sign messages with your LUX addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones LUX para demostrar que le pertenecen</translation>
+        <source>Sign messages with your RÜNES addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones RÜNES para demostrar que le pertenecen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LUX addresses</source>
-        <translation>Verificar mensajes para asegurar que están firmados con la dirección LUX especificada</translation>
+        <source>Verify messages to ensure they were signed with specified RÜNES addresses</source>
+        <translation>Verificar mensajes para asegurar que están firmados con la dirección RÜNES especificada</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -670,8 +670,8 @@
         <translation>Abrir Fichero de Configuración de Nodos Maestros</translation>
     </message>
     <message>
-        <source>Open a LUX: URI or payment request</source>
-        <translation>Abrir un LUX: URI o solicitud de pago</translation>
+        <source>Open a RÜNES: URI or payment request</source>
+        <translation>Abrir un RÜNES: URI o solicitud de pago</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,16 +682,16 @@
         <translation>Ventana del explorador de bloques</translation>
     </message>
     <message>
-        <source>Show the Luxcore help message to get a list with possible LUX command-line options</source>
-        <translation>Mostrar la ayuda de Luxcore para obtener una lista de posibles opciones en línea de comandos</translation>
+        <source>Show the RÜNES help message to get a list with possible RÜNES command-line options</source>
+        <translation>Mostrar la ayuda de RÜNES para obtener una lista de posibles opciones en línea de comandos</translation>
     </message>
     <message>
-        <source>Luxcore client</source>
-        <translation>Cliente Luxcore</translation>
+        <source>RÜNES client</source>
+        <translation>Cliente RÜNES</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to LUX network</source>
-        <translation><numerusform>%n conexión(es) activas a la red LUX</numerusform><numerusform>%n conexión(es) activas a la red LUX</numerusform></translation>
+        <source>%n active connection(s) to RÜNES network</source>
+        <translation><numerusform>%n conexión(es) activas a la red RÜNES</numerusform><numerusform>%n conexión(es) activas a la red RÜNES</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -837,8 +837,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (lux.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (lux.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (RÜNES.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (RÜNES.conf).</translation>
     </message>
 </context>
 <context>
@@ -1138,8 +1138,8 @@ MultiEnvío: %1</translation>
         <translation>Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LUX address.</source>
-        <translation>La dirección introducida "%1" no es una dirección LUX válida.</translation>
+        <source>The entered address "%1" is not a valid RÜNES address.</source>
+        <translation>La dirección introducida "%1" no es una dirección RÜNES válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,16 +1184,16 @@ MultiEnvío: %1</translation>
         <translation>versión</translation>
     </message>
     <message>
-        <source>Luxcore</source>
-        <translation>Núcleo LUX</translation>
+        <source>RÜNES</source>
+        <translation>Núcleo RÜNES</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Luxcore</source>
-        <translation>Acerca de Luxcore</translation>
+        <source>About RÜNES</source>
+        <translation>Acerca de RÜNES</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1239,16 +1239,16 @@ MultiEnvío: %1</translation>
         <translation>Bienvenido/a</translation>
     </message>
     <message>
-        <source>Welcome to Luxcore.</source>
-        <translation>Bienvenido/a a Luxcore.</translation>
+        <source>Welcome to RÜNES.</source>
+        <translation>Bienvenido/a a RÜNES.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Luxcore will store its data.</source>
-        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará Luxcore sus datos.</translation>
+        <source>As this is the first time the program is launched, you can choose where RÜNES will store its data.</source>
+        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará RÜNES sus datos.</translation>
     </message>
     <message>
-        <source>Luxcore will download and store a copy of the LUX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Luxcore descargará y guardará una copia de la cadena de bloques LUX. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
+        <source>RÜNES will download and store a copy of the RÜNES block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>RÜNES descargará y guardará una copia de la cadena de bloques RÜNES. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,8 +1259,8 @@ MultiEnvío: %1</translation>
         <translation>Usar una carpeta de datos personalizada:</translation>
     </message>
     <message>
-        <source>Luxcore</source>
-        <translation>Núcleo LUX</translation>
+        <source>RÜNES</source>
+        <translation>Núcleo RÜNES</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1417,12 +1417,12 @@ MultiEnvío: %1</translation>
         <translation>Introduzca Dirección a la cual Enviar</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other LUX addresses after it matures.
-To Add: enter percentage to give and LUX address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other RÜNES addresses after it matures.
+To Add: enter percentage to give and RÜNES address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recomensa de participación o de nodo maestro a una lista de otras direcciones LUX después de su maduración.
-Para Añadir: introduzca porcentaje a mandar y las direcciones LUX a añadir al vector MultiEnvío.
+        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recomensa de participación o de nodo maestro a una lista de otras direcciones RÜNES después de su maduración.
+Para Añadir: introduzca porcentaje a mandar y las direcciones RÜNES a añadir al vector MultiEnvío.
 Para Eliminar: Introduzca la dirección a eliminar y pulse la tecla delete.
 MultiEnvío no se activará a menos que haga usted click en Activar</translation>
     </message>
@@ -1560,48 +1560,48 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Por favor selecciones un nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 LUX</source>
-        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 LUX</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 RÜNES</source>
+        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 RÜNES</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 LUX</source>
-        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 LUX</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 RÜNES</source>
+        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 RÜNES</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 LUX to anonymize 10000 LUX</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 LUX para anonimizar 10000 LUX</translation>
+        <source>This option is the quickest and will cost about ~0.025 RÜNES to anonymize 10000 RÜNES</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 RÜNES para anonimizar 10000 RÜNES</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 LUX to anonymize 10000 LUX</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 LUX para anonimizar 10000 LUX.</translation>
+        <source>This option is moderately fast and will cost about 0.05 RÜNES to anonymize 10000 RÜNES</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 RÜNES para anonimizar 10000 RÜNES.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 LUX per 10000 LUX you anonymize.</source>
-        <translation>0.1 LUX por 10000 LUX que anonimizas.</translation>
+        <source>0.1 RÜNES per 10000 RÜNES you anonymize.</source>
+        <translation>0.1 RÜNES por 10000 RÜNES que anonimizas.</translation>
     </message>
     <message>
         <source>Darksend Configuration</source>
         <translation>Configuración de Ofuscación</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening LUX's configuration screen.</source>
-        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de LUX.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening RÜNES's configuration screen.</source>
+        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de RÜNES.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening LUX's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de LUX.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening RÜNES's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de RÜNES.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening LUX's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de LUX.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening RÜNES's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de RÜNES.</translation>
     </message>
 </context>
 <context>
@@ -1662,8 +1662,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al menos una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
     </message>
     <message>
-        <source>Automatically open the LUX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente LUX en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
+        <source>Automatically open the RÜNES client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente RÜNES en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1682,12 +1682,12 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically start LUX after logging in to the system.</source>
-        <translation>Arrancar LUX automáticamente después de identificarse en Windows.</translation>
+        <source>Automatically start RÜNES after logging in to the system.</source>
+        <translation>Arrancar RÜNES automáticamente después de identificarse en Windows.</translation>
     </message>
     <message>
-        <source>&amp;Start LUX on system login</source>
-        <translation>&amp;Arrancar LUX al inicio del sistema</translation>
+        <source>&amp;Start RÜNES on system login</source>
+        <translation>&amp;Arrancar RÜNES al inicio del sistema</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1702,8 +1702,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Esta cantidad actúa como un techo para desactivar la Ofuscación una vez alcanzado.</translation>
     </message>
     <message>
-        <source>Amount of LUX to keep anonymized</source>
-        <translation>Cantidad de LUX a mantener anonimizados</translation>
+        <source>Amount of RÜNES to keep anonymized</source>
+        <translation>Cantidad de RÜNES a mantener anonimizados</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1730,22 +1730,22 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting LUX.</source>
-        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar LUX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting RÜNES.</source>
+        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar RÜNES.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/lux-project/lux-project-translations</source>
+https://www.transifex.com/RÜNES-project/RÜNES-project-translations</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/lux-project/lux-project-translations</translation>
+https://www.transifex.com/RÜNES-project/RÜNES-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the LUX network through a SOCKS5 proxy.</source>
-        <translation>Conectar a la red LUX mediante un proxy SOCKS5.</translation>
+        <source>Connect to the RÜNES network through a SOCKS5 proxy.</source>
+        <translation>Conectar a la red RÜNES mediante un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1899,8 +1899,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Balances</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the LUX network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red LUX después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RÜNES network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red RÜNES después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1943,8 +1943,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Balance de Ofuscación:</translation>
     </message>
     <message>
-        <source>0 LUX / 0 Rounds</source>
-        <translation>0 LUX / 0 Rondas</translation>
+        <source>0 RÜNES / 0 Rounds</source>
+        <translation>0 RÜNES / 0 Rondas</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2062,11 +2062,11 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Se encontraron suficientes entradas compatibles para anonimizar %1</translation>
     </message>
     <message>
-        <source>Start Luxsend</source>
+        <source>Start RÜNESsend</source>
         <translation>Comenzar Ofuscación</translation>
     </message>
     <message>
-        <source>Stop Luxsend</source>
+        <source>Stop RÜNESsend</source>
         <translation>Parar Ofuscación</translation>
     </message>
     <message>
@@ -2105,12 +2105,12 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start lux: click-to-pay handler</source>
-        <translation>No se puede iniciar lux: módulo click-to-pay</translation>
+        <source>Cannot start RÜNES: click-to-pay handler</source>
+        <translation>No se puede iniciar RÜNES: módulo click-to-pay</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid LUX address or malformed URI parameters.</source>
-        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección LUX inválida o parámetros del identificador malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid RÜNES address or malformed URI parameters.</source>
+        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección RÜNES inválida o parámetros del identificador malformados.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2195,8 +2195,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter a LUX address (e.g. %1)</source>
-        <translation>Introduzca una dirección LUX (p.e. %1)</translation>
+        <source>Enter a RÜNES address (e.g. %1)</source>
+        <translation>Introduzca una dirección RÜNES (p.e. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2329,8 +2329,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Cadena de bloques</translation>
     </message>
     <message>
-        <source>Open the LUX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir el fichero de depuración LUX en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
+        <source>Open the RÜNES debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir el fichero de depuración RÜNES en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2497,8 +2497,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Fuera:</translation>
     </message>
     <message>
-        <source>Welcome to the LUX RPC console.</source>
-        <translation>Bienvenido a la consola RPC de LUX.</translation>
+        <source>Welcome to the RÜNES RPC console.</source>
+        <translation>Bienvenido a la consola RPC de RÜNES.</translation>
     </message>
     <message>
         <source>Wallet in use: </source>
@@ -2572,12 +2572,12 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Una etiqueta opcional a asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the LUX network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red LUX.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the RÜNES network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red RÜNES.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the LUX network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red LUX.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the RÜNES network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red RÜNES.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2809,8 +2809,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 LUX</source>
-        <translation>0 LUX</translation>
+        <source>0 RÜNES</source>
+        <translation>0 RÜNES</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2857,16 +2857,16 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Tiempo de confirmación:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uLUXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLUXs in fee,&lt;br /&gt;while "at least" pays 1000 uLUXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uLUXs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uLUXs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uLUXs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uRÜNESs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRÜNESs in fee,&lt;br /&gt;while "at least" pays 1000 uRÜNESs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uRÜNESs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uRÜNESs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uRÜNESs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uLUXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLUXs in fee,&lt;br /&gt;while "total at least" pays 1000 uLUXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uLUXs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uLUXs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uLUXs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uRÜNESs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRÜNESs in fee,&lt;br /&gt;while "total at least" pays 1000 uRÜNESs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uRÜNESs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uRÜNESs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uRÜNESs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for LUX transactions than the network can process.</source>
-        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones LUX de las que la red puede procesar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for RÜNES transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones RÜNES de las que la red puede procesar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2965,8 +2965,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>fondos anónimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid LUX address</source>
-        <translation>Advertencia: Direcciones LUX inválidas</translation>
+        <source>Warning: Invalid RÜNES address</source>
+        <translation>Advertencia: Direcciones RÜNES inválidas</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3042,8 +3042,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The LUX address to sign the message with</source>
-        <translation>La dirección LUX con la que firmar el mensaje</translation>
+        <source>The RÜNES address to sign the message with</source>
+        <translation>La dirección RÜNES con la que firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3066,16 +3066,16 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
         <translation>Copiar la firma actual al clipboard del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LUX address</source>
-        <translation>Firmar el mensaje para demostrar que eres el propietario de esta dirección LUX</translation>
+        <source>Sign the message to prove you own this RÜNES address</source>
+        <translation>Firmar el mensaje para demostrar que eres el propietario de esta dirección RÜNES</translation>
     </message>
     <message>
-        <source>The LUX address the message was signed with</source>
-        <translation>La dirección LUX con la que el mensaje fue firmado</translation>
+        <source>The RÜNES address the message was signed with</source>
+        <translation>La dirección RÜNES con la que el mensaje fue firmado</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LUX address</source>
-        <translation>Verificar el mensaje para asegurarse que fue firmado con la dirección LUX especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified RÜNES address</source>
+        <translation>Verificar el mensaje para asegurarse que fue firmado con la dirección RÜNES especificada</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -3113,8 +3113,8 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Luxcore</source>
-        <translation>Núcleo LUX</translation>
+        <source>RÜNES</source>
+        <translation>Núcleo RÜNES</translation>
     </message>
     </context>
 <context>
@@ -3221,7 +3221,7 @@ https://www.transifex.com/lux-project/lux-project-translations</translation>
     </message>
     </context>
 <context>
-    <name>lux-core</name>
+    <name>RÜNES</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

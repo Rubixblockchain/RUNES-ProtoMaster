@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The LUX developers
+// Copyright (c) 2015-2017 The RÜNES developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -39,7 +39,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::LUX)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::RÜNES)
     {
     }
 
@@ -228,9 +228,9 @@ OverviewPage::OverviewPage(QWidget* parent) : QWidget(parent),
             ui->frameDarksend->setEnabled(false);
         } else {
             if (!fEnableDarksend) {
-                ui->toggleDarksend->setText(tr("Start Luxsend"));
+                ui->toggleDarksend->setText(tr("Start RÜNESsend"));
             } else {
-                ui->toggleDarksend->setText(tr("Stop Luxsend"));
+                ui->toggleDarksend->setText(tr("Stop RÜNESsend"));
             }
             timer = new QTimer(this);
             connect(timer, SIGNAL(timeout()), this, SLOT(darksendStatus()));
@@ -369,7 +369,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         ui->listTokens->setModel(proxyModel);
     }
 
-    // update the display unit, to not use the default ("LUX")
+    // update the display unit, to not use the default ("RÜNES")
     updateDisplayUnit();
 }
 
@@ -411,15 +411,15 @@ void OverviewPage::updateDarksendProgress()
     if (!pwalletMain) return;
 
     QString strAmountAndRounds;
-    QString strAnonymizeLuxAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizeLuxAmount * COIN, false, BitcoinUnits::separatorAlways);
+    QString strAnonymizeRÜNESAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizeRÜNESAmount * COIN, false, BitcoinUnits::separatorAlways);
 
     if (currentBalance == 0) {
         ui->darksendProgress->setValue(0);
         ui->darksendProgress->setToolTip(tr("No inputs detected"));
 
         // when balance is zero just show info from settings
-        strAnonymizeLuxAmount = strAnonymizeLuxAmount.remove(strAnonymizeLuxAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
-        strAmountAndRounds = strAnonymizeLuxAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
+        strAnonymizeRÜNESAmount = strAnonymizeRÜNESAmount.remove(strAnonymizeRÜNESAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
+        strAmountAndRounds = strAnonymizeRÜNESAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
 
         ui->labelAmountRounds->setToolTip(tr("No inputs detected"));
         ui->labelAmountRounds->setText(strAmountAndRounds);
@@ -446,20 +446,20 @@ void OverviewPage::updateDarksendProgress()
     CAmount nMaxToAnonymize = nAnonymizableBalance + currentAnonymizedBalance + nDenominatedUnconfirmedBalance;
 
     // If it's more than the anon threshold, limit to that.
-    if (nMaxToAnonymize > nAnonymizeLuxAmount * COIN) nMaxToAnonymize = nAnonymizeLuxAmount * COIN;
+    if (nMaxToAnonymize > nAnonymizeRÜNESAmount * COIN) nMaxToAnonymize = nAnonymizeRÜNESAmount * COIN;
 
     if (nMaxToAnonymize == 0) return;
 
-    if (nMaxToAnonymize >= nAnonymizeLuxAmount * COIN) {
+    if (nMaxToAnonymize >= nAnonymizeRÜNESAmount * COIN) {
         ui->labelAmountRounds->setToolTip(tr("Found enough compatible inputs to anonymize %1")
-                                              .arg(strAnonymizeLuxAmount));
-        strAnonymizeLuxAmount = strAnonymizeLuxAmount.remove(strAnonymizeLuxAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
-        strAmountAndRounds = strAnonymizeLuxAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
+                                              .arg(strAnonymizeRÜNESAmount));
+        strAnonymizeRÜNESAmount = strAnonymizeRÜNESAmount.remove(strAnonymizeRÜNESAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
+        strAmountAndRounds = strAnonymizeRÜNESAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
     } else {
         QString strMaxToAnonymize = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nMaxToAnonymize, false, BitcoinUnits::separatorAlways);
         ui->labelAmountRounds->setToolTip(tr("Not enough compatible inputs to anonymize <span style='color:red;'>%1</span>,<br>"
                                              "will anonymize <span style='color:red;'>%2</span> instead")
-                                              .arg(strAnonymizeLuxAmount)
+                                              .arg(strAnonymizeRÜNESAmount)
                                               .arg(strMaxToAnonymize));
         strMaxToAnonymize = strMaxToAnonymize.remove(strMaxToAnonymize.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
         strAmountAndRounds = "<span style='color:red;'>" +
@@ -533,7 +533,7 @@ void OverviewPage::darksendStatus()
 
             ui->darksendEnabled->setText(tr("Disabled"));
             ui->darksendStatus->setText("");
-            ui->toggleDarksend->setText(tr("Start Luxsend"));
+            ui->toggleDarksend->setText(tr("Start RÜNESsend"));
         }
 
         return;
@@ -628,14 +628,14 @@ void OverviewPage::toggleDarksend()
     darkSendPool.cachedNumBlocks = std::numeric_limits<int>::max();
 
     if (!fEnableDarksend) {
-        ui->toggleDarksend->setText(tr("Start Luxsend"));
+        ui->toggleDarksend->setText(tr("Start RÜNESsend"));
         darkSendPool.UnlockCoins();
     } else {
-        ui->toggleDarksend->setText(tr("Stop Luxsend"));
+        ui->toggleDarksend->setText(tr("Stop RÜNESsend"));
 
         /* show darksend configuration if client has defaults set */
 
-        if (nAnonymizeLuxAmount == 0) {
+        if (nAnonymizeRÜNESAmount == 0) {
             DarksendConfig dlg(this);
             dlg.setModel(walletModel);
             dlg.exec();

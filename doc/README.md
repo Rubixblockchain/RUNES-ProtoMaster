@@ -1,38 +1,38 @@
-Luxcore
+RÜNES
 =====================
 
 Setup
 ---------------------
-[Luxcore](http://luxcore.io) is the original LUX client and it builds the backbone of the network. However, it downloads and stores the entire history of LUX transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[RÜNES](http://RÜNES.io) is the original RÜNES client and it builds the backbone of the network. However, it downloads and stores the entire history of RÜNES transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run LUX on your native platform.
+The following are some helpful notes on how to run RÜNES on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/lux-qt (GUI, 32-bit) or bin/32/luxd (headless, 32-bit)
-- bin/64/lux-qt (GUI, 64-bit) or bin/64/luxd (headless, 64-bit)
+- bin/32/RÜNES-qt (GUI, 32-bit) or bin/32/RÜNESd (headless, 32-bit)
+- bin/64/RÜNES-qt (GUI, 64-bit) or bin/64/RÜNESd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run lux-qt.exe.
+Unpack the files into a directory, and then run RÜNES-qt.exe.
 
 ### OSX
 
-Drag LUX-Qt to your applications folder, and then run LUX-Qt.
+Drag RÜNES-Qt to your applications folder, and then run RÜNES-Qt.
 
 ### Need Help?
 
-* See the documentation at the [LUX Wiki](https://github.com/216k155/lux/wiki) ***TODO***
+* See the documentation at the [RÜNES Wiki](https://github.com/216k155/RÜNES/wiki) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=2254046.0) or on the [LUX Telegram](https://t.me/LUXcoinOfficialChat).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=2254046.0) or on the [RÜNES Telegram](https://t.me/RÜNEScoinOfficialChat).
 
 Building
 ---------------------
-The following are developer notes on how to build LUX on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build RÜNES on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -40,7 +40,7 @@ The following are developer notes on how to build LUX on your native platform. T
 
 Development
 ---------------------
-The Lux repo's [root README](https://github.com/LUX-Project/LUX/blob/master/README.md) contains relevant information on the development process and automated testing.
+The RÜNES repo's [root README](https://github.com/RÜNES-Project/RÜNES/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -54,8 +54,8 @@ The Lux repo's [root README](https://github.com/LUX-Project/LUX/blob/master/READ
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [LUX](http://forum.lux.org/) forum.
-* Join the [LUX-Dev](https://lux-dev.slack.com/) Slack group ([Sign-Up](https://lux-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [RÜNES](http://forum.RÜNES.org/) forum.
+* Join the [RÜNES-Dev](https://RÜNES-dev.slack.com/) Slack group ([Sign-Up](https://RÜNES-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

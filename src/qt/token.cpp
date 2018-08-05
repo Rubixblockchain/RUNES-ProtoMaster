@@ -71,11 +71,11 @@ struct TokenData
     {}
 };
 
-bool ToHash160(const std::string& strLuxAddress, std::string& strHash160)
+bool ToHash160(const std::string& strRÜNESAddress, std::string& strHash160)
 {   
-    CTxDestination luxAddress = DecodeDestination(strLuxAddress);
-    if(IsValidDestination(luxAddress)){     
-        CKeyID *keyid = boost::get<CKeyID>(&luxAddress);
+    CTxDestination RÜNESAddress = DecodeDestination(strRÜNESAddress);
+    if(IsValidDestination(RÜNESAddress)){     
+        CKeyID *keyid = boost::get<CKeyID>(&RÜNESAddress);
         strHash160 = HexStr(valtype(keyid->begin(),keyid->end()));
     }else{
         return false;
@@ -83,13 +83,13 @@ bool ToHash160(const std::string& strLuxAddress, std::string& strHash160)
     return true;
 }
 
-bool ToLuxAddress(const std::string& strHash160, std::string& strLuxAddress)
+bool ToRÜNESAddress(const std::string& strHash160, std::string& strRÜNESAddress)
 {
     uint160 key(ParseHex(strHash160.c_str()));
     CKeyID keyid(key);
     
     if(IsValidDestination(CTxDestination(keyid))){
-        strLuxAddress = EncodeDestination(CTxDestination(keyid));
+        strRÜNESAddress = EncodeDestination(CTxDestination(keyid));
         return true;
     }
     return false;
@@ -598,9 +598,9 @@ bool Token::execEvents(int64_t fromBlock, int64_t toBlock, int func, std::vector
             TokenEvent tokenEvent;
             tokenEvent.address = variantMap.value("contractAddress").toString().toStdString();
             tokenEvent.sender = topicsList[1].toString().toStdString().substr(24);
-            ToLuxAddress(tokenEvent.sender, tokenEvent.sender);
+            ToRÜNESAddress(tokenEvent.sender, tokenEvent.sender);
             tokenEvent.receiver = topicsList[2].toString().toStdString().substr(24);
-            ToLuxAddress(tokenEvent.receiver, tokenEvent.receiver);
+            ToRÜNESAddress(tokenEvent.receiver, tokenEvent.receiver);
             tokenEvent.blockHash = uint256S(variantMap.value("blockHash").toString().toStdString());
             tokenEvent.blockNumber = variantMap.value("blockNumber").toLongLong();
             tokenEvent.transactionHash = uint256S(variantMap.value("transactionHash").toString().toStdString());

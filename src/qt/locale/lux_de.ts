@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie LUX überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie RÜNES überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie LUX empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie RÜNES empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your LUX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre LUX-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie LUX überweisen.</translation>
+        <source>These are your RÜNES addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre RÜNES-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie RÜNES überweisen.</translation>
     </message>
     <message>
-        <source>These are your LUX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre LUX-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your RÜNES addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre RÜNES-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>LUX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LUXs from being stolen by malware infecting your computer.</source>
-        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer LUXs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <source>RÜNES will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RÜNESs from being stolen by malware infecting your computer.</source>
+        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer RÜNESs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Sind Sie sich sicher, dass Sie ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LUX&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre LUXs verlieren&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RÜNES&lt;/b&gt;!</source>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre RÜNESs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -478,16 +478,16 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>Luxcore</source>
-        <translation>Luxcore</translation>
+        <source>RÜNES</source>
+        <translation>RÜNES</translation>
     </message>
     <message>
-        <source>Send coins to a LUX address</source>
-        <translation>An eine LUX-Adresse überweisen</translation>
+        <source>Send coins to a RÜNES address</source>
+        <translation>An eine RÜNES-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lux: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und lux: URIs)</translation>
+        <source>Request payments (generates QR codes and RÜNES: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und RÜNES: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -498,24 +498,24 @@
         <translation>Masternodes durchsuchen</translation>
     </message>
     <message>
-        <source>&amp;About Luxcore</source>
-        <translation>Über.Luxcore</translation>
+        <source>&amp;About RÜNES</source>
+        <translation>Über.RÜNES</translation>
     </message>
     <message>
-        <source>Show information about Luxcore</source>
-        <translation>Zeigt Informationen über Luxcore</translation>
+        <source>Show information about RÜNES</source>
+        <translation>Zeigt Informationen über RÜNES</translation>
     </message>
     <message>
-        <source>Modify configuration options for LUX</source>
-        <translation>Konfiguration von LUX verändern</translation>
+        <source>Modify configuration options for RÜNES</source>
+        <translation>Konfiguration von RÜNES verändern</translation>
     </message>
     <message>
-        <source>Sign messages with your LUX addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer LUX-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <source>Sign messages with your RÜNES addresses to prove you own them</source>
+        <translation>Unterschreibt eine Nachricht mit Ihrer RÜNES-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LUX addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten LUX-Adresse signiert wurde</translation>
+        <source>Verify messages to ensure they were signed with specified RÜNES addresses</source>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten RÜNES-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -640,8 +640,8 @@ Adresse: %4</translation>
         <translation>Suche</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (lux.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "lux.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (RÜNES.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "RÜNES.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -773,8 +773,8 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LUX address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige LUX-Adresse.</translation>
+        <source>The entered address "%1" is not a valid RÜNES address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige RÜNES-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -819,16 +819,16 @@ Adresse: %4</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>Luxcore</source>
-        <translation>Luxcore</translation>
+        <source>RÜNES</source>
+        <translation>RÜNES</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About Luxcore</source>
-        <translation>Über Luxcore</translation>
+        <source>About RÜNES</source>
+        <translation>Über RÜNES</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -874,16 +874,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to Luxcore.</source>
-        <translation>Willkommen zu Luxcore.</translation>
+        <source>Welcome to RÜNES.</source>
+        <translation>Willkommen zu RÜNES.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Luxcore will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie Luxcore starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where RÜNES will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie RÜNES starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>Luxcore will download and store a copy of the LUX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Luxcore wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>RÜNES will download and store a copy of the RÜNES block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>RÜNES wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -894,8 +894,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>Luxcore</source>
-        <translation>Luxcore</translation>
+        <source>RÜNES</source>
+        <translation>RÜNES</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1128,8 +1128,8 @@ Adresse: %4</translation>
         <translation>Verschleierter Betrag:</translation>
     </message>
     <message>
-        <source>0 LUX / 0 Rounds</source>
-        <translation>0 LUX / 0 Runden</translation>
+        <source>0 RÜNES / 0 Rounds</source>
+        <translation>0 RÜNES / 0 Runden</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1224,11 +1224,11 @@ Adresse: %4</translation>
         <translation>Genug kompatible Inputs zum Anonymisieren von %1 gefunden</translation>
     </message>
     <message>
-        <source>Start Luxsend</source>
+        <source>Start RÜNESsend</source>
         <translation>Verschleierung starten</translation>
     </message>
     <message>
-        <source>Stop Luxsend</source>
+        <source>Stop RÜNESsend</source>
         <translation>Verschleierung stoppen</translation>
     </message>
     <message>
@@ -1269,8 +1269,8 @@ Adresse: %4</translation>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a LUX address (e.g. %1)</source>
-        <translation>LUX-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a RÜNES address (e.g. %1)</source>
+        <translation>RÜNES-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1456,7 +1456,7 @@ Adresse: %4</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>LUXs überweisen</translation>
+        <translation>RÜNESs überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1531,8 +1531,8 @@ Adresse: %4</translation>
         <translation>UTXO Größe:</translation>
     </message>
     <message>
-        <source>0 LUX</source>
-        <translation>0 LUX</translation>
+        <source>0 RÜNES</source>
+        <translation>0 RÜNES</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1642,8 +1642,8 @@ Adresse: %4</translation>
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The LUX address to send the payment to</source>
-        <translation>LUX-Adresse, an die überwiesen werden soll</translation>
+        <source>The RÜNES address to send the payment to</source>
+        <translation>RÜNES-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1682,8 +1682,8 @@ Adresse: %4</translation>
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the LUX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the LUX network.</source>
-        <translation>Eine an die LUX-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das LUX-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the RÜNES: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RÜNES network.</source>
+        <translation>Eine an die RÜNES-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das RÜNES-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1709,8 +1709,8 @@ Adresse: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Luxcore is shutting down...</source>
-        <translation>Luxcore wird beendet...</translation>
+        <source>RÜNES is shutting down...</source>
+        <translation>RÜNES wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1751,8 +1751,8 @@ Adresse: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Luxcore</source>
-        <translation>Luxcore</translation>
+        <source>RÜNES</source>
+        <translation>RÜNES</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1767,8 +1767,8 @@ Adresse: %4</translation>
         <translation>Die Dash Core Entwickler</translation>
     </message>
     <message>
-        <source>The Luxcore developers</source>
-        <translation>Die Luxcore Entwickler</translation>
+        <source>The RÜNES developers</source>
+        <translation>Die RÜNES Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -1938,7 +1938,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte LUXs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine LUXs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte RÜNESs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine RÜNESs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2304,11 +2304,11 @@ Adresse: %4</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>LUXs überweisen</translation>
+        <translation>RÜNESs überweisen</translation>
     </message>
     <message>
-        <source>InstanTX doesn't support sending values that high yet. Transactions are currently limited to %1 LUX.</source>
-        <translation>InstanTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 LUX begrenzt.</translation>
+        <source>InstanTX doesn't support sending values that high yet. Transactions are currently limited to %1 RÜNES.</source>
+        <translation>InstanTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 RÜNES begrenzt.</translation>
     </message>
 </context>
 <context>
@@ -2351,7 +2351,7 @@ Adresse: %4</translation>
     </message>
 </context>
 <context>
-    <name>lux-core</name>
+    <name>RÜNES</name>
     <message>
         <source>Error</source>
         <translation>Fehler</translation>
@@ -2501,8 +2501,8 @@ Adresse: %4</translation>
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Luxcore to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte Luxcore neu starten</translation>
+        <source>Wallet needed to be rewritten: restart RÜNES to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte RÜNES neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

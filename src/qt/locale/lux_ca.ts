@@ -214,16 +214,16 @@
         <translation>&amp;Eines</translation>
     </message>
     <message>
-        <source>Luxcore</source>
-        <translation>Luxcore</translation>
+        <source>RÜNES</source>
+        <translation>RÜNES</translation>
     </message>
     <message>
-        <source>&amp;About Luxcore</source>
-        <translation>&amp;Sobre Luxcore</translation>
+        <source>&amp;About RÜNES</source>
+        <translation>&amp;Sobre RÜNES</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to LUX network</source>
-        <translation><numerusform>%n connexió activa a la xarxa LUX</numerusform><numerusform>%n connexions actives a la xarxa LUX</numerusform></translation>
+        <source>%n active connection(s) to RÜNES network</source>
+        <translation><numerusform>%n connexió activa a la xarxa RÜNES</numerusform><numerusform>%n connexions actives a la xarxa RÜNES</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -392,12 +392,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Luxcore</source>
-        <translation>Luxcore</translation>
+        <source>RÜNES</source>
+        <translation>RÜNES</translation>
     </message>
     <message>
-        <source>About Luxcore</source>
-        <translation>Sobre Luxcore</translation>
+        <source>About RÜNES</source>
+        <translation>Sobre RÜNES</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -415,12 +415,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Luxcore.</source>
-        <translation>Benvingut a Luxcore.</translation>
+        <source>Welcome to RÜNES.</source>
+        <translation>Benvingut a RÜNES.</translation>
     </message>
     <message>
-        <source>Luxcore</source>
-        <translation>Luxcore</translation>
+        <source>RÜNES</source>
+        <translation>RÜNES</translation>
     </message>
     <message>
         <source>Error</source>
@@ -549,11 +549,11 @@
         <translation>Desactivat</translation>
     </message>
     <message>
-        <source>Start Luxsend</source>
+        <source>Start RÜNESsend</source>
         <translation>Iniciar Ofuscació</translation>
     </message>
     <message>
-        <source>Stop Luxsend</source>
+        <source>Stop RÜNESsend</source>
         <translation>Aturar Ofuscació</translation>
     </message>
     <message>
@@ -888,8 +888,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Luxcore</source>
-        <translation>Luxcore</translation>
+        <source>RÜNES</source>
+        <translation>RÜNES</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1040,7 +1040,7 @@
     </message>
     </context>
 <context>
-    <name>lux-core</name>
+    <name>RÜNES</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

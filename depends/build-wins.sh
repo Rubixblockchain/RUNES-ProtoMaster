@@ -1,6 +1,6 @@
 #!/bin/sh
 #-###############################################-#
-# C++ Cross-Compiler - The Luxcore Developer-2018 #
+# C++ Cross-Compiler - The RÜNES Developer-2018 #
 #-###############################################-#
 
 # Set platform variables
@@ -85,9 +85,9 @@ RELEASE="$OLD_PATH/Release"
 mkdir -p "$RELEASE"
 
 # Remove the symbols for release
-[ -f "./src/qt/lux-qt.exe" ] && cp "./src/qt/lux-qt.exe" "$RELEASE"
-[ -f "./src/luxd.exe" ] && cp "./src/luxd.exe" "$RELEASE"
-[ -f "./src/lux-cli.exe" ] && cp "./src/lux-cli.exe" "$RELEASE"
+[ -f "./src/qt/RÜNES-qt.exe" ] && cp "./src/qt/RÜNES-qt.exe" "$RELEASE"
+[ -f "./src/RÜNESd.exe" ] && cp "./src/RÜNESd.exe" "$RELEASE"
+[ -f "./src/RÜNES-cli.exe" ] && cp "./src/RÜNES-cli.exe" "$RELEASE"
 
 
 cd "$RELEASE"
