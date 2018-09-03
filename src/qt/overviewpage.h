@@ -1,24 +1,36 @@
-// Copyright (c) 2011-2013 The Bitcoin developers
-// Distributed under the MIT/X11 software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-#ifndef BITCOIN_QT_OVERVIEWPAGE_H
-#define BITCOIN_QT_OVERVIEWPAGE_H
-
-#include "amount.h"
+#ifndef OVERVIEWPAGE_H
+#define OVERVIEWPAGE_H
 
 #include <QWidget>
-#include <memory>
 
-class ClientModel;
-class TransactionFilterProxy;
-class TxViewDelegate;
-class TknViewDelegate;
-class WalletModel;
+#include "clientmodel.h"
+#include "main.h"
+#include "wallet.h"
+#include "base58.h"
+
+#include <QDir>
+#include <QFile>
+#include <QProcess>
+#include <QTime>
+#include <QTimer>
+#include <QStringList>
+#include <QMap>
+#include <QSettings>
+#include <QSlider>
+
+double getPoSHardness(int);
+double convertPoSCoins(int64_t);
+int getPoSTime(int);
+int PoSInPastHours(int);
+const CBlockIndex* getPoSIndex(int);
 
 namespace Ui {
-class OverviewPage;
+    class OverviewPage;
 }
+class ClientModel;
+class WalletModel;
+class TxViewDelegate;
+class TransactionFilterProxy;
 
 QT_BEGIN_NAMESPACE
 class QModelIndex;
@@ -30,49 +42,37 @@ class OverviewPage : public QWidget
     Q_OBJECT
 
 public:
-    explicit OverviewPage(QWidget* parent = 0);
+    explicit OverviewPage(QWidget *parent = 0);
     ~OverviewPage();
 
-    void setClientModel(ClientModel* clientModel);
-    void setWalletModel(WalletModel* walletModel);
+    void setClientModel(ClientModel *clientModel);
+    void setWalletModel(WalletModel *walletModel);
     void showOutOfSyncWarning(bool fShow);
-    void updateDarksendProgress();
 
 public slots:
-    void darksendStatus();
-    void setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, const CAmount& anonymizedBalance, const CAmount& watchOnlyBalance, const CAmount& watchUnconfBalance, const CAmount& watchImmatureBalance);
+    void setBalance(qint64 balance, qint64 stake, qint64 unconfirmedBalance, qint64 immatureBalance);
+    void updatePoSstat(bool);
+    void setCntBlocks(int pseudo);
+    void setCntConnections(int count);
 
 signals:
-    void transactionClicked(const QModelIndex& index);
-    void addTokenClicked(bool toAddTokenPage);
+    void transactionClicked(const QModelIndex &index);
 
 private:
-    QTimer* timer;
-    Ui::OverviewPage* ui;
-    ClientModel* clientModel;
-    WalletModel* walletModel;
-    CAmount currentBalance;
-    CAmount currentUnconfirmedBalance;
-    CAmount currentImmatureBalance;
-    CAmount currentAnonymizedBalance;
-    CAmount currentWatchOnlyBalance;
-    CAmount currentWatchUnconfBalance;
-    CAmount currentWatchImmatureBalance;
-    int nDisplayUnit;
+    Ui::OverviewPage *ui;
+    ClientModel *clientModel;
+    WalletModel *walletModel;
+    qint64 currentBalance;
+    qint64 currentStake;
+    qint64 currentUnconfirmedBalance;
+    qint64 currentImmatureBalance;
 
-    TxViewDelegate* txdelegate;
-    TknViewDelegate *tkndelegate;
-    TransactionFilterProxy* filter;
+    TxViewDelegate *txdelegate;
+    TransactionFilterProxy *filter;
 
 private slots:
-    void toggleDarksend();
-    void darksendAuto();
-    void darksendReset();
     void updateDisplayUnit();
-    void handleTransactionClicked(const QModelIndex& index);
-    void updateAlerts(const QString& warnings);
-    void updateWatchOnlyLabels(bool showWatchOnly);
-    void on_buttonAddToken_clicked();
+    void handleTransactionClicked(const QModelIndex &index);
 };
 
-#endif // BITCOIN_QT_OVERVIEWPAGE_H
+#endif // OVERVIEWPAGE_H
